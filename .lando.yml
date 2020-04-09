@@ -1,0 +1,6 @@
+name: hwm-lando
+recipe: pantheon
+config:
+  framework: drupal8
+  site: hwm-lando
+  id: f9d5388e-791d-4e32-9091-bd07d0f1a85e
