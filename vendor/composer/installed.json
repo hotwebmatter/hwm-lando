@@ -1068,6 +1068,7 @@
         "require": {
             "drupal/core": "~8.0"
         },
+        "time": "2019-06-25T18:04:07+00:00",
         "type": "drupal-module",
         "extra": {
             "branch-alias": {
