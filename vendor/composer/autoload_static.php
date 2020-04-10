@@ -102,6 +102,7 @@ class ComposerStaticInitce58b5d98b41b71861b22b5cdcf13ed1
         ),
         'E' => 
         array (
+            'Embed\\' => 6,
             'Egulias\\EmailValidator\\' => 23,
         ),
         'D' => 
@@ -306,6 +307,10 @@ class ComposerStaticInitce58b5d98b41b71861b22b5cdcf13ed1
         'Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook',
+        ),
+        'Embed\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/embed/embed/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
