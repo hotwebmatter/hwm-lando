@@ -398,7 +398,8 @@ class ComposerStaticInitce58b5d98b41b71861b22b5cdcf13ed1
         array (
             'Drush' => 
             array (
-                0 => __DIR__ . '/..' . '/drush/drush/lib',
+                0 => __DIR__ . '/..' . '/drush/config-extra/lib',
+                1 => __DIR__ . '/..' . '/drush/drush/lib',
             ),
             'Doctrine\\Common\\Collections\\' => 
             array (

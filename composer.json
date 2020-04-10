@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/twitter_block": "^2.1",
+        "drush/config-extra": "^1.0",
         "drush/drush": "^8.3"
     },
     "conflict": {

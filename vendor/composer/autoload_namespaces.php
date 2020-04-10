@@ -10,7 +10,7 @@ return array(
     'Stack' => array($vendorDir . '/stack/builder/src'),
     'PEAR' => array($vendorDir . '/pear/pear_exception'),
     'EasyRdf_' => array($vendorDir . '/easyrdf/easyrdf/lib'),
-    'Drush' => array($vendorDir . '/drush/drush/lib'),
+    'Drush' => array($vendorDir . '/drush/config-extra/lib', $vendorDir . '/drush/drush/lib'),
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
     'Dflydev\\DotAccessData' => array($vendorDir . '/dflydev/dot-access-data/src'),
     'Consolidation' => array($vendorDir . '/drush/drush/lib'),

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2802b5dfa82309c94ff317457efa88b8",
+    "content-hash": "531a79fd02aeed11b000351bb2d1d464",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1429,6 +1429,57 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/twitter_block"
             }
+        },
+        {
+            "name": "drush/config-extra",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drush-ops/config-extra.git",
+                "reference": "6bd3d5aa3ca7625115683f6e687285a3f1c48a54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drush-ops/config-extra/zipball/6bd3d5aa3ca7625115683f6e687285a3f1c48a54",
+                "reference": "6bd3d5aa3ca7625115683f6e687285a3f1c48a54",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=3.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "8.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Drush": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Moshe Weitzman",
+                    "email": "weitzman@tejasa.com"
+                },
+                {
+                    "name": "Greg Anderson",
+                    "email": "greg.1.anderson@greenknowe.org"
+                }
+            ],
+            "description": "Drush config-extra contains additional configuration Drush commands, notably config-merge.",
+            "keywords": [
+                "Drush"
+            ],
+            "time": "2015-10-16T21:32:27+00:00"
         },
         {
             "name": "drush/drush",
